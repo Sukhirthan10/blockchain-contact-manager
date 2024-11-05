@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Contact Manager</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>Blockchain Contact Manager</h1>
+    <div id="add-contact">
+        <h2>Add Contact</h2>
+        <input type="text" id="name" placeholder="Contact's Name">
+        <input type="number" id="phone" placeholder="Contact's Phone Number">
+        <button onclick="addContact()">Add Contact</button>
+    </div>
+    <div id="blockchain-display">
+        <h2>Blockchain</h2>
+        <button onclick="viewBlockchain()">View Blockchain</button>
+        <div id="blockchain"></div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
